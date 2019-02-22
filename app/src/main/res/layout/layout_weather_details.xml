@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="viewModel"
+                  type="com.anhhn.kotlindemo.ui.currentWeather.CurrentWeatherViewModel"/>
+    </data>
+    <merge
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.anhhn.kotlindemo.widget.CustomTextView
+                android:id="@+id/tvCurrentTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:textColor="@color/white"
+                android:textSize="70sp"
+                android:text="@{String.format(@string/text_degree, viewModel.mWeatherModel.currentTemp)}"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/llDetail"
+                tools:text="27"/>
+
+        <ImageView
+                android:id="@+id/ivWeather"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                app:imageUrl="@{viewModel.mWeatherModel.icon}"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tvCurrentTemp"/>
+
+        <com.anhhn.kotlindemo.widget.CustomTextView
+                android:id="@+id/tvCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:font_path="fonts/SFUIText-Bold.otf"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="@id/tvCurrentTemp"
+                android:text="@{viewModel.mWeatherModel.name}"/>
+
+        <LinearLayout
+                android:id="@+id/llDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="24dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+            <com.anhhn.kotlindemo.widget.CustomTextView
+                    android:id="@+id/tvMinTemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text="@{String.format(@string/text_min_temp,viewModel.mWeatherModel.minTemp)}"
+                    android:padding="8dp"
+                    tools:text="10"/>
+
+            <com.anhhn.kotlindemo.widget.CustomTextView
+                    android:id="@+id/tvMaxTemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@{String.format(@string/text_max_temp, viewModel.mWeatherModel.maxTemp)}"
+                    android:textSize="20sp"
+                    android:padding="8dp"
+                    tools:text="20"/>
+
+            <com.anhhn.kotlindemo.widget.CustomTextView
+                    android:id="@+id/tvHumid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@{String.format(@string/text_humid, viewModel.mWeatherModel.humid)}"
+                    android:textSize="20sp"
+                    android:padding="8dp"
+                    tools:text="70%"/>
+
+            <com.anhhn.kotlindemo.widget.CustomTextView
+                    android:id="@+id/tvPressure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@{String.format(@string/text_pressure, viewModel.mWeatherModel.pressure)}"
+                    android:textSize="20sp"
+                    android:padding="8dp"
+                    tools:text="8 Pa"/>
+
+            <com.anhhn.kotlindemo.widget.CustomTextView
+                    android:id="@+id/tvWindSpeed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@{String.format(@string/text_wind_speed,viewModel.mWeatherModel.windSpeed)}"
+                    android:textSize="20sp"
+                    android:padding="8dp"
+                    tools:text="2 m/s"/>
+
+            <com.anhhn.kotlindemo.widget.CustomTextView
+                    android:id="@+id/tvSunrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    app:sunrise="@{viewModel.mWeatherModel.sunrise}"
+                    android:padding="8dp"
+                    tools:text="05:00 AM"/>
+
+            <com.anhhn.kotlindemo.widget.CustomTextView
+                    android:id="@+id/tvSunset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    app:sunset="@{viewModel.mWeatherModel.sunset}"
+                    android:textSize="20sp"
+                    android:padding="8dp"
+                    tools:text="06:00 PM"/>
+        </LinearLayout>
+
+    </merge>
+</layout>

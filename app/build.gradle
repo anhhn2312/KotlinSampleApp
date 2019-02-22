@@ -1,0 +1,112 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+androidExtensions {
+    experimental = true
+}
+
+android {
+    dataBinding {
+        enabled = true
+    }
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.anhhn.kotlindemo"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "0.1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+
+//    signingConfigs {
+//        release {
+//            storeFile file("keystore/pamlo_keystore")
+//            storePassword '123456'
+//            keyAlias 'pamlo_android'
+//            keyPassword '123456'
+//        }
+//    }
+
+    buildTypes {
+        release {
+            shrinkResources false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "id"
+
+    productFlavors {
+        staging {
+            dimension "id"
+            applicationId "com.anhhn.kotlindemo"
+            buildConfigField 'String', 'BASE_URL', '"http://api.openweathermap.org/"'
+        }
+
+        live {
+            dimension "id"
+            applicationId "com.anhhn.kotlindemo"
+            buildConfigField 'String', 'BASE_URL', '"http://api.openweathermap.org/"'
+//            signingConfig signingConfigs.release
+        }
+    }
+
+    dexOptions {
+//        incremental = true
+        preDexLibraries = false
+        javaMaxHeapSize "4g"
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+kapt {
+    generateStubs = true
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0-alpha01'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "androidx.appcompat:appcompat:$appcompat_version"
+    implementation "androidx.core:core-ktx:$ktx_version"
+    implementation "com.google.android.material:material:$material_version"
+
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_adapter_version"
+    implementation "com.squareup.retrofit2:converter-scalars:$retrofit_adapter_version"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit_adapter_version"
+    implementation "com.squareup.okhttp3:okhttp:$okhttp_version"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttp_version"
+    implementation "com.google.code.gson:gson:$gson_version"
+
+    implementation "com.google.dagger:dagger:$dagger_version"
+    annotationProcessor "com.google.dagger:dagger-compiler:$dagger_version"
+    kapt "com.google.dagger:dagger-compiler:$dagger_version"
+
+    implementation "io.reactivex.rxjava2:rxandroid:$rxandroid_version"
+    implementation "io.reactivex.rxjava2:rxjava:$rxjava_version"
+
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+
+    implementation "com.intuit.sdp:sdp-android:$sdp_version"
+}

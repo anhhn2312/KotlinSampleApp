@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">sample app</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>lựng
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!--MainActivity-->
+    <string name="tab_upcoming_weather">In 10 days</string>
+    <string name="tab_current_weather">Current weather</string>
+    <string name="text_degree">%d°C</string>
+    <string name="text_min_temp">Min: %d°C</string>
+    <string name="text_max_temp">Max: %d°C</string>
+    <string name="text_humid">Humid: %d %%</string>
+    <string name="text_pressure">Pressure: %.2f Pa</string>
+    <string name="text_wind_speed">Windspeed: %.2f m/s</string>
+    <string name="text_sunrise">Sunrise: %s</string>
+    <string name="text_sunset">Sunset: %s</string>
+</resources>

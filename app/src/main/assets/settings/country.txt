@@ -1,0 +1,201 @@
+アイスランド共和国,Iceland,IS
+アイルランド,Ireland,IE
+アゼルバイジャン共和国,Azerbaijan,AZ
+アフガニスタン・イスラム共和国,Afghanistan,AF
+アメリカ合衆国,United States,US
+アラブ首長国連邦,United Arab Emirates,AE
+アルジェリア民主人民共和国,Algeria,DZ
+アルゼンチン共和国,Argentina,AR
+アルバニア共和国,Albania,AL
+アルメニア共和国,Armenia,AM
+アンゴラ共和国,Angola,AO
+アンティグア・バーブーダ,Antigua and Barbuda,AG
+アンドラ公国,Andorra,AD
+イエメン共和国,Yemen,YE
+イスラエル国,Israel,IL
+イタリア共和国,Italy,IT
+イラク共和国,Iraq,IQ
+イラン・イスラム共和国,Iran,IR
+インド,India,IN
+インドネシア共和国,Indonesia,ID
+ウガンダ共和国,Uganda,UG
+ウクライナ,Ukraine,UA
+ウズベキスタン共和国,Uzbekistan,UZ
+ウルグアイ東方共和国,Uruguay,UY
+英国（グレートブリテン及び北アイルランド連合王国）,United Kingdom,GB
+エクアドル共和国,Ecuador,EC
+エジプト・アラブ共和国,Egypt,EG
+エストニア共和国,Estonia,EE
+エスワティニ王国（旧国名：スワジランド王国）,Kingdom of Eswatini (Swaziland),SZ
+エチオピア連邦民主共和国,Ethiopia,ET
+エリトリア国,Eritrea,ER
+エルサルバドル共和国,El Salvador,SV
+オーストラリア連邦,Australia,AU
+オーストリア共和国,Austria,AT
+オマーン国,Oman,OM
+オランダ王国,Netherlands,NL
+ガーナ共和国,Ghana,GH
+カーボヴェルデ共和国,Cape Verde,CV
+ガイアナ共和国,Guyana,GY
+カザフスタン共和国,Kazakhstan,KZ
+カタール国,Qatar,QA
+カナダ,Canada,CA
+ガボン共和国,Gabon,GA
+カメルーン共和国,Cameroon,CM
+ガンビア共和国,Gambia,GM
+カンボジア王国,Cambodia,KH
+ギニア共和国,Guinea,GN
+ギニアビサウ共和国,Guinea-Bissau,GW
+キプロス共和国,Cyprus,CY
+キューバ共和国,Cuba,CU
+ギリシャ共和国,Greece,GR
+キリバス共和国,Kiribati,KI
+キルギス共和国,Kyrgyzstan,KG
+グアテマラ共和国,Guatemala,GT
+クウェート国,Kuwait,KW
+クック諸島,Cook Islands,CK
+グレナダ,Grenada,GD
+クロアチア共和国,Croatia,HR
+ケニア共和国,Kenya,KE
+コートジボワール共和国,Cote d'Ivoire,CI
+コスタリカ共和国,Costa Rica,CR
+コソボ共和国,Kosovo,XK
+コモロ連合,Comoros,KM
+コロンビア共和国,Colombia,CO
+コンゴ共和国,Congo,CG
+コンゴ民主共和国,Congo,CD
+サウジアラビア王国,Saudi Arabia,SA
+サモア独立国,Samoa,WS
+サントメ・プリンシペ民主共和国,Sao Tome and Principe,ST
+ザンビア共和国,Zambia,ZM
+サンマリノ共和国,San Marino,SM
+シエラレオネ共和国,Sierra Leone,SL
+ジブチ共和国,Djibouti,DJ
+ジャマイカ,Jamaica,JM
+ジョージア,Georgia,GE
+シリア・アラブ共和国,Syrian Arab Republic,SY
+シンガポール共和国,Singapore,SG
+ジンバブエ共和国,Zimbabwe,ZW
+スーダン共和国,Sudan,SD
+スイス連邦,Switzerland,CH
+スウェーデン王国,Sweden,SE
+スペイン,Spain,ES
+スリナム共和国,Suriname,SR
+スリランカ民主社会主義共和国,Sri Lanka,LK
+スロバキア共和国,Slovakia,SK
+スロベニア共和国,Slovenia,SI
+セーシェル共和国,Seychelles,SC
+赤道ギニア共和国,Equatorial Guinea,GQ
+セネガル共和国,Senegal,SN
+セルビア共和国,Serbia,RS
+セントクリストファー・ネーヴィス,Saint Kitts and Nevis,KN
+セントビンセント及びグレナディーン諸島,Saint Vincent and the Grenadines,VC
+セントルシア,Saint Lucia,LC
+ソマリア連邦共和国,Somalia,SO
+ソロモン諸島,Solomon Islands,SB
+タイ王国,Thailand,TH
+大韓民国,Korea, Republic of,KR
+タジキスタン共和国,Tajikistan,TJ
+タンザニア連合共和国,Tanzania,TZ
+チェコ共和国,Czechia,CZ
+チャド共和国,Chad,TD
+中央アフリカ共和国,Central African Republic,CF
+中華人民共和国,China,CN
+チュニジア共和国,Tunisia,TN
+チリ共和国,Chile,CL
+ツバル,Tuvalu,TV
+デンマーク王国,Denmark,DK
+ドイツ連邦共和国,Germany,DE
+トーゴ共和国,Togo,TG
+ドミニカ国,Dominica,DM
+ドミニカ共和国,Dominican Republic,DO
+トリニダード・トバゴ共和国,Trinidad and Tobago,TT
+トルクメニスタン,Turkmenistan,TM
+トルコ共和国,Turkey,TR
+トンガ王国,Tonga,TO
+ナイジェリア連邦共和国,Nigeria,NG
+ナウル共和国,Nauru,NR
+ナミビア共和国,Namibia,NA
+ニウエ,Niue,NU
+ニカラグア共和国,Nicaragua,NI
+ニジェール共和国,Niger,NE
+ニュージーランド,New Zealand,NZ
+ネパール連邦民主共和国,Nepal,NP
+ノルウェー王国,Norway,NO
+バーレーン王国,Bahrain,BH
+ハイチ共和国,Haiti,HT
+パキスタン・イスラム共和国,Pakistan,PK
+バチカン市国,Holy See (Vatican City State),VA
+パナマ共和国,Panama,PA
+バヌアツ共和国,Vanuatu,VU
+バハマ国,Bahamas,BS
+パプアニューギニア独立国,Papua New Guinea,PG
+パラオ共和国,Palau,PW
+パラグアイ共和国,Paraguay,PY
+バルバドス,Barbados,BB
+ハンガリー,Hungary,HU
+バングラデシュ人民共和国,Bangladesh,BD
+東ティモール民主共和国,Timor-Leste,TL
+フィジー共和国,Fiji,FJ
+フィリピン共和国,Philippines,PH
+フィンランド共和国,Finland,FI
+ブータン王国,Bhutan,BT
+ブラジル連邦共和国,Brazil,BR
+フランス共和国,France,FR
+ブルガリア共和国,Bulgaria,BG
+ブルキナファソ,Burkina Faso,BF
+ブルネイ・ダルサラーム国,Brunei Darussalam,BN
+ブルンジ共和国,Burundi,BI
+ベトナム社会主義共和国,Viet Nam,VN
+ベナン共和国,Benin,BJ
+ベネズエラ・ボリバル共和国,Venezuela,VE
+ベラルーシ共和国,Belarus,BY
+ベリーズ,Belize,BZ
+ペルー共和国,Peru,PE
+ベルギー王国,Belgium,BE
+ポーランド共和国,Poland,PL
+ボスニア・ヘルツェゴビナ,Bosnia and Herzegovina,BA
+ボツワナ共和国,Botswana,BW
+ボリビア多民族国,Bolivia,BO
+ポルトガル共和国,Portugal,PT
+ホンジュラス共和国,Honduras,HN
+マーシャル諸島共和国,Marshall Islands,MH
+マケドニア旧ユーゴスラビア共和国,Macedonia,MK
+マダガスカル共和国,Madagascar,MG
+マラウイ共和国,Malawi,MW
+マリ共和国,Mali,ML
+マルタ共和国,Malta,MT
+マレーシア,Malaysia,MY
+ミクロネシア連邦,Micronesia,FM
+南アフリカ共和国,South Africa,ZA
+南スーダン共和国,South Sudan,SS
+ミャンマー連邦共和国,Myanmar,MM
+メキシコ合衆国,Mexico,MX
+モーリシャス共和国,Mauritius,MU
+モーリタニア・イスラム共和国,Mauritania,MR
+モザンビーク共和国,Mozambique,MZ
+モナコ公国,Monaco,MC
+モルディブ共和国,Maldives,MV
+モルドバ共和国,Moldova,MD
+モロッコ王国,Morocco,MA
+モンゴル国,Mongolia,MN
+モンテネグロ,Montenegro,ME
+ヨルダン,Jordan,JO
+ラオス人民民主共和国,Lao People's Democratic Republic,LA
+ラトビア共和国,Latvia,LV
+リトアニア共和国,Lithuania,LT
+リビア,Libya,LY
+リヒテンシュタイン公国,Liechtenstein,LI
+リベリア共和国,Liberia,LR
+ルーマニア,Romania,RO
+ルクセンブルク大公国,Luxembourg,LU
+ルワンダ共和国,Rwanda,RW
+レソト王国,Lesotho,LS
+レバノン共和国,Lebanon,LB
+ロシア連邦,Russian Federation,RU
+北朝鮮,Korea,KP
+台湾,Taiwan, Province of China,TW
+パレスチナ,Palestinian,PS
+香港,Hong Kong,HK
+マカオ,Macau,MO
+日本,Japan,JP

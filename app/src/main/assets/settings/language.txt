@@ -1,0 +1,103 @@
+アイスランド語,Icelandic,Íslenska,is
+アイルランド語,Irish,Gaeilge,ga
+アゼルバイジャン語,Azerbaijani,Azərbaycanca,az
+アフリカーンス語,Afrikaans,Afrikaans,af
+アムハラ語,Amharic,አማርኛ,am
+アラビア語,Arabic,العربية,ar
+アルメニア語,Armenian,Հայերեն,hy
+イタリア語,Italian,Italiano,it
+イディッシュ語,Yiddish,ייִדיש,yi
+イボ語,Igbo,Igbo,ig
+インドネシア語,Indonesian,Bahasa Indonesia,id
+ウェールズ語,Welsh,Cymraeg,cy
+ウクライナ語,Ukrainian,Українська,uk
+ウズベク語,Uzbek,O‘zbek,uz
+ウルドゥー語,Urdu,اردو,ur
+エストニア語,Estonian,Eesti,et
+エスペラント語,Esperanto,Esperanto,eo
+オランダ語,Dutch,Nederlands,nl
+カザフ語,Kazakh,Қазақша,kk
+カタルーニャ語,Catalan,Català,ca
+ガリシア語,Galician,Galego,gl
+カンナダ語,Kannada,ಕನ್ನಡ,kn
+ギリシャ語,Greek,Ελληνικά,el
+キルギス語,Kyrgyz,Кыргызча,ky
+グジャラト語,Gujarati,ગુજરાતી,gu
+クメール語,Khmer,ភាសាខ្មែរ,km
+グルジア語,Georgian,ქართული,ka
+クルド語,Kurdish,Kurdî,ku
+クレオール語（ハイチ）,Haitian,Kreyòl Ayisyen,ht
+クロアチア語,Croatian,Hrvatski,hr
+コーサ語,Xhosa,isiXhosa,xh
+コルシカ語,Corsican,Corsu,co
+サモア語,Samoan,Gagana Sāmoa,sm
+ジャワ語,Javanese,Wong Jawa,jw
+ショナ語,Shona,ChiShona,sn
+シンド語,Sindhi,سنڌي‎,sd
+シンハラ語,Sinhala,සිංහල,si
+スウェーデン語,Swedish,Svenska,sv
+ズールー語,Zulu,isiZulu,zu
+スコットランド ゲール語,Gaelic,Gàidhlig,gd
+スペイン語,Spanish,Español,es
+スロバキア語,Slovak,Slovenčina,sk
+スロベニア語,Slovene,Slovenščina,sl
+スワヒリ語,Swahili,Kiswahili,sw
+スンダ語,Sundanese,Basa Sunda,su
+セブ語,Cebuano,Cebuano,ceb
+セルビア語,Serbian,Српски,sr
+ソト語,Southern Sotho,Sesotho,st
+ソマリ語,Somali,Soomaaliga,so
+タイ語,Thai,ภาษาไทย,th
+タガログ語（フィリピン語,Tagalog,Tagalog,tl
+タジク語,Tajik,Тоҷикӣ,tg
+タミル語,Tamil,தமிழ்,ta
+チェコ語,Czech,Čeština,cs
+テルグ語,Telugu,తెలుగు,te
+デンマーク語,Danish,Dansk,da
+ドイツ語,German,Deutsch,de
+トルコ語,Turkish,Türkçe,tr
+ニャンジャ語（チェワ語,Chichewa,Chichewa,ny
+ネパール語,Nepali,नेपाली,ne
+ノルウェー語,Norwegian,Norsk,no
+ハウサ語,Hausa,هَوُسَ,ha
+パシュト語,Pashto,پښتو,ps
+バスク語,Basque,Euskara,eu
+ハワイ語,Hawaiian,ʻŌlelo Hawaiʻi,haw
+ハンガリー語,Hungarian,Magyar,hu
+パンジャブ語,Panjabi,ਪੰਜਾਬੀ,pa
+ヒンディー語,Hindi,हिन्दी,hi
+フィンランド語,Finnish,Suomi,fi
+フランス語,French,Français,fr
+フリジア語,Western Frisian,Frysk,fy
+ブルガリア語,Bulgarian,Български,bg
+ベトナム語,Vietnamese,Tiếng Việt,vi
+ヘブライ語,Hebrew,עברית,iw
+ベラルーシ語,Belarusian,Беларуская,be
+ペルシャ語,Persian,فارسی,fa
+ベンガル語,Bengali,বাংলা,bn
+ポーランド語,Polish,Polski,pl
+ボスニア語,Bosnian,Bosanski,bs
+ポルトガル語,Portuguese,Português,pt
+マオリ語,Māori,Māori,mi
+マケドニア語,Macedonian,Македонски,mk
+マラーティー語,Marathi,मराठी,mr
+マラガシ語,Malagasy,Malagasy,mg
+マラヤーラム語,Malayalam,മലയാളം,ml
+マルタ語,Maltese,Malti,mt
+マレー語,Malay,Bahasa Melayu,ms
+ミャオ語,Hmong,Hmong,hmn
+ミャンマー語（ビルマ語）,Burmese,မြန်မာဘာသာ,my
+モンゴル語,Mongolian,Монгол,mn
+ヨルバ語,Yoruba,Yorùbá,yo
+ラオ語,Lao,ພາສາລາວ,lo
+ラテン語,Latin,Latina,la
+ラトビア語,Latvian,Latviešu,lv
+リトアニア語,Lithuanian,Lietuvių,lt
+ルーマニア語,Romanian,Română,ro
+ルクセンブルク語,Luxembourgish,Lëtzebuergesch,lb
+ロシア語,Russian,Русский,ru
+中国語（簡体,Chinese (Simplified),中文 (简体),zh-CN
+中国語（繁体,Chinese (Traditional),中文 (繁體),zh-TW
+日本語,Japanese,日本語,ja
+英語,English,English,en
+韓国語,Korean,한국어,ko

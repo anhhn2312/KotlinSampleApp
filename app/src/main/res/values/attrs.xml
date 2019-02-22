@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomText">
+        <attr name="font_path" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SpotDetailTextView">
+        <attr name="icon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="HeaderEmergencyView">
+        <attr name="text_header" format="string" />
+        <attr name="icon_emergency" format="reference" />
+        <attr name="icon_line" format="reference" />
+        <attr name="text_color" format="color" />
+        <attr name="text_size" format="integer" />
+    </declare-styleable>
+
+</resources>
