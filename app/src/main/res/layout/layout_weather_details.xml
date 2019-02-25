@@ -6,9 +6,7 @@
     </data>
     <merge
             xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            xmlns:tools="http://schemas.android.com/tools">
 
         <com.anhhn.kotlindemo.widget.CustomTextView
                 android:id="@+id/tvCurrentTemp"
@@ -20,7 +18,7 @@
                 android:textSize="60sp"
                 android:text="@{String.format(@string/text_degree, viewModel.mWeatherModel.currentTemp)}"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintBottom_toTopOf="@id/llDetail"
+                app:layout_constraintTop_toTopOf="parent"
                 tools:text="27"/>
 
         <com.anhhn.kotlindemo.widget.CustomTextView
@@ -52,7 +50,7 @@
                 app:font_path="fonts/SFUIText-Bold.otf"
                 android:textColor="@color/white"
                 android:textSize="28sp"
-                android:layout_marginTop="8dp"
+                tools:text="Hanoi"
                 android:layout_marginEnd="24dp"
                 android:layout_marginRight="24dp"
                 app:layout_constraintRight_toRightOf="parent"
