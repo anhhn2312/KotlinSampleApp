@@ -6,6 +6,8 @@ import com.google.gson.annotations.SerializedName
  * Created by Andy Ha on 5/8/18.
  */
 class WeatherResponseDTO {
+    @SerializedName("dt")
+    var date: Long = 0
     @SerializedName("sys")
     var sys: SysDTO? = null
     @SerializedName("weather")

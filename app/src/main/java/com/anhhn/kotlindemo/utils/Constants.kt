@@ -6,5 +6,6 @@ package com.anhhn.kotlindemo.utils
 object Constants {
     const val API_KEY = "e2478031c941e3511bc4e73c24440ae6"
     const val HANOI_ID = "1581130"
+    const val FORECASE_DAYS = 10
 
 }

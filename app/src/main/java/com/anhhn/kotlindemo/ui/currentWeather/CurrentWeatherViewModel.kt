@@ -26,9 +26,7 @@ class CurrentWeatherViewModel(weatherRepository: WeatherRepository) : ViewModel(
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe { weatherModel: WeatherModel?, throwable: Throwable? ->
                 mWeatherModel.let { mWeatherModel.value = weatherModel }
-                Logger.i(mWeatherModel.value.toString())
                 Logger.logException(throwable)
             }
     }
-
 }

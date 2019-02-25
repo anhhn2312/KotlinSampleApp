@@ -42,7 +42,6 @@ class CurrentWeatherFragment : BaseFragment<FragmentCurrentWeatherBinding>() {
             .get(CurrentWeatherViewModel::class.java)
         viewBinding.viewModel = viewModel
         viewBinding.setLifecycleOwner(this)
-        viewModel.mWeatherModel.observe(this, Observer {  })
     }
 
     override fun getLayoutResId(): Int {

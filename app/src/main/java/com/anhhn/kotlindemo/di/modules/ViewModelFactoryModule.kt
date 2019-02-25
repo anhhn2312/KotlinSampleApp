@@ -1,6 +1,7 @@
 package com.anhhn.kotlindemo.di.modules
 
 import com.anhhn.kotlindemo.factory.CurrentWeatherViewModelFactory
+import com.anhhn.kotlindemo.factory.UpcomingWeatherViewModelFactory
 import com.anhhn.kotlindemo.services.WeatherRepository
 import dagger.Module
 import dagger.Provides
@@ -12,8 +13,13 @@ import dagger.Provides
 class ViewModelFactoryModule {
 
     @Provides
-    fun provideCurrentWeatherViewModel(weatherRepository: WeatherRepository): CurrentWeatherViewModelFactory{
+    fun provideCurrentWeatherViewModelFactory(weatherRepository: WeatherRepository): CurrentWeatherViewModelFactory {
         return CurrentWeatherViewModelFactory(weatherRepository)
+    }
+
+    @Provides
+    fun provideUpcomingWeatherViewModelFactory(weatherRepository: WeatherRepository): UpcomingWeatherViewModelFactory {
+        return UpcomingWeatherViewModelFactory(weatherRepository)
     }
 
 }

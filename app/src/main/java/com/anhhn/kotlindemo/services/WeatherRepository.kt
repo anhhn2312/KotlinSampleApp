@@ -14,4 +14,14 @@ class WeatherRepository(val weatherApi: WeatherApi) {
                 Single.just(WeatherModel().convert(it))
             }
     }
+
+    fun getUpcomingWeather(id: String): Single<List<WeatherModel>> {
+        return weatherApi.getWeatherForecast(id, Constants.API_KEY, Constants.FORECASE_DAYS)
+            .flatMap { weatherResponseDTOs ->
+                var weatherModels: List<WeatherModel>? = weatherResponseDTOs.data?.map { WeatherModel().convert(it) }
+                Single.just(weatherModels)
+            }
+    }
+
+
 }

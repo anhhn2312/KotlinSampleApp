@@ -8,8 +8,6 @@ import com.anhhn.kotlindemo.R
 import com.anhhn.kotlindemo.pojo.WeatherResponseDTO
 import com.anhhn.kotlindemo.utils.AppUtils
 import com.anhhn.kotlindemo.utils.ImageUtils
-import com.bumptech.glide.Glide
-import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import kotlinx.android.parcel.Parcelize
 
 /**
@@ -23,6 +21,7 @@ data class WeatherModel(
     var weather: String? = null,
     var weatherDescription: String? = null,
     var icon: String? = null,
+    var date: Long = 0,
     var currentTemp: Int = 0,
     var minTemp: Int = 0,
     var maxTemp: Int = 0,
@@ -33,25 +32,23 @@ data class WeatherModel(
     var windSpeed: Double = 0.toDouble()
 ) : Parcelable {
 
-    fun convert(weatherResponse: WeatherResponseDTO?): WeatherModel? {
-        if (weatherResponse == null) return null
-
-        val weatherDTO = WeatherModel()
-        weatherDTO.id = weatherResponse.id
-        weatherDTO.name = weatherResponse.name
-        weatherDTO.sunrise = weatherResponse.sys!!.sunrise
-        weatherDTO.sunset = weatherResponse.sys!!.sunset
-        weatherDTO.weather = weatherResponse.weathers!![0].main
-        weatherDTO.weatherDescription = weatherResponse.weathers!![0].description
-        weatherDTO.icon = weatherResponse.weathers!![0].icon
-        weatherDTO.currentTemp = weatherResponse.main!!.temperature.toInt()
-        weatherDTO.minTemp = weatherResponse.main!!.minTemp.toInt()
-        weatherDTO.maxTemp = weatherResponse.main!!.maxTemp.toInt()
-        weatherDTO.windSpeed = weatherResponse.wind!!.speed
-        weatherDTO.humid = weatherResponse.main!!.humid.toInt()
-        weatherDTO.pressure = weatherResponse.main!!.pressure
-
-        return weatherDTO
+    fun convert(weatherResponse: WeatherResponseDTO): WeatherModel {
+        val weatherModel = WeatherModel()
+        weatherModel.id = weatherResponse.id
+        weatherModel.name = weatherResponse.name
+        weatherModel.sunrise = weatherResponse.sys!!.sunrise
+        weatherModel.sunset = weatherResponse.sys!!.sunset
+        weatherModel.weather = weatherResponse.weathers!![0].main
+        weatherModel.weatherDescription = weatherResponse.weathers!![0].description
+        weatherModel.icon = weatherResponse.weathers!![0].icon
+        weatherModel.date = weatherResponse.date
+        weatherModel.currentTemp = weatherResponse.main!!.temperature.toInt()
+        weatherModel.minTemp = weatherResponse.main!!.minTemp.toInt()
+        weatherModel.maxTemp = weatherResponse.main!!.maxTemp.toInt()
+        weatherModel.windSpeed = weatherResponse.wind!!.speed
+        weatherModel.humid = weatherResponse.main!!.humid.toInt()
+        weatherModel.pressure = weatherResponse.main!!.pressure
+        return weatherModel
     }
 }
 
@@ -62,14 +59,19 @@ fun bindImageFromUrl(view: ImageView, imageUrl: String?) {
     }
 }
 
+@BindingAdapter("date")
+fun bindDate(view: TextView, timeStamp: Long){
+    view.text = AppUtils.instance.formatTimestampToDate(timeStamp)
+}
+
 @BindingAdapter("sunrise")
-fun bindSunrise(view: TextView, sunrise: Long){
+fun bindSunrise(view: TextView, timeStamp: Long){
     view.text = String.format(view.context.getString(R.string.text_sunrise),
-        AppUtils.instance.formatTimestampFromServer(sunrise))
+        AppUtils.instance.formatTimestampToHour(timeStamp))
 }
 
 @BindingAdapter("sunset")
-fun bindSunset(view: TextView, sunset: Long){
+fun bindSunset(view: TextView, timeStamp: Long){
     view.text = String.format(view.context.getString(R.string.text_sunrise),
-        AppUtils.instance.formatTimestampFromServer(sunset))
+        AppUtils.instance.formatTimestampToHour(timeStamp))
 }

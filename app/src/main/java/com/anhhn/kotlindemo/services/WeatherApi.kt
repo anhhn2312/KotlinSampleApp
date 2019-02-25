@@ -10,22 +10,17 @@ import retrofit2.http.Query
  * Created by Andy Ha on 5/8/18.
  */
 interface WeatherApi {
-    @GET("data/2.5/group?units=metric")
-    fun getListCityWeather(
-        @Query("id") cityId: String,
-        @Query("appid") apiKey: String
-    ): Single<BaseResponse<List<WeatherResponseDTO>>>
-
     @GET("data/2.5/weather?units=metric")
     fun getWeatherDetail(
         @Query("id") cityId: String,
         @Query("appid") apiKey: String
     ): Single<WeatherResponseDTO>
 
-    @GET("data/2.5/weather?units=metric")
-    fun getWeatherByCoordinate(
+    @GET("data/2.5/forecast?units=metric")
+    fun getWeatherForecast(
+        @Query("id") cityId: String,
         @Query("appid") apiKey: String,
-        @Query("lat") latitude: Double,
-        @Query("lon") longitude: Double
-    ): Single<WeatherResponseDTO>
+        @Query("cnt") count: Int
+    ): Single<BaseResponse<List<WeatherResponseDTO>>>
+
 }

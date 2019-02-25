@@ -14,6 +14,7 @@ import java.util.Locale
 class AppUtils {
     private var mContext: Context? = null
     private val sdfHour = SimpleDateFormat("HH:mm", Locale.getDefault())
+    private val sdfDate = SimpleDateFormat("EEE, dd/MM", Locale.getDefault())
 
     companion object {
         private var mInstance: AppUtils? = null
@@ -42,7 +43,9 @@ class AppUtils {
 
     }
 
-    fun formatTimestampFromServer(timeStamp: Long): String {
-        return sdfHour.format(Date(timeStamp * 1000))
-    }
+    fun formatTimestampToHour(timeStamp: Long): String =
+        sdfHour.format(Date(timeStamp * 1000))
+
+    fun formatTimestampToDate(timeStamp: Long):String =
+            sdfDate.format(Date(timeStamp * 1000))
 }
